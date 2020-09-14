@@ -14,17 +14,17 @@ export default function NavBar(){
                         <div className="col-lg-8 d-none d-lg-block">
                             <nav className="mainmenu__nav">
                                 <ul className="meninmenu d-flex justify-content-start">
-                                    <li className="drop with--one--item"><a href="index.html">Home</a>
+                                    <li className="drop with--one--item"><a href="/">Home</a>
                                         <li className="drop"><a href="#">Shop</a>
                                         </li>
-                                        <li className="drop"><a href="shop-grid.html">Books</a>
+                                        <li className="drop"><a href="/about">About</a>
                                         </li>
                                         <li className="drop"><a href="shop-grid.html">Kids</a>
                                         </li>
-                                        <li className="drop"><a href="blog.html">Blog</a>
+                                        <li className="drop"><a href="/product">Product</a>
                                         </li>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -33,21 +33,16 @@ export default function NavBar(){
                         <div className="col-lg-12 d-none">
                             <nav className="mobilemenu__nav">
                                 <ul className="meninmenu">
-                                    <li><a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Style Default</a></li>
-                                            <li><a href="index-2.html">Home Style Two</a></li>
-                                            <li><a href="index-box.html">Home Box Style</a></li>
-                                        </ul>
+                                    <li><a href="/">Home</a>
                                     </li>
-                                    <li><a href="#">Pages</a>
+                                    <li className="drop"><a href="#">Shop</a>
                                     </li>
-                                    <li><a href="shop-grid.html">Shop</a>
-
+                                    <li className="drop"><a href="/about">About</a>
                                     </li>
-                                    <li><a href="blog.html">Blog</a>
+                                    <li className="drop"><a href="shop-grid.html">Kids</a>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li className="drop"><a href="/product">Product</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
