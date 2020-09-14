@@ -2504,6 +2504,11 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+flutterwave-react-v3@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/flutterwave-react-v3/-/flutterwave-react-v3-1.0.4.tgz#f6e11dfd7457e8ba0a5fda6dcc200259b781879a"
+  integrity sha512-DANX3V77wYKY1nLSuzIpnDG28Egpc2G5GslEaXngyDITdicIaMUT/Sr9ZSN/pNMpXEJyMVQRObnPa+kFFdNqWA==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -3890,6 +3895,11 @@ react-is@16.13.1, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-paystack@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-paystack/-/react-paystack-3.0.1.tgz#520d3011a3f73923fa01e40733f35aac9cb9a2cc"
+  integrity sha512-b9Cnw/oNTWSunlCFjSMCz4RYV1/yzQgt4PZ5u+nQyu/+2F9cIFFoxJVnmk96awc0cyfYr33rdjaaK1t2dYiW7g==
 
 react-refresh@0.8.3:
   version "0.8.3"
