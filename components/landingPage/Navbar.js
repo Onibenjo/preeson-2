@@ -21,29 +21,7 @@ export default function NavBar(){
                                         </li>
                                         <li className="drop"><a href="shop-grid.html">Kids</a>
                                         </li>
-                                        <li className="drop"><a href="#">Pages</a>
-                                            <div className="megamenu dropdown">
-                                                <ul className="item item01">
-                                                    <li><a href="about.html">About Page</a></li>
-                                                    <li><a href="my-account.html">My Account</a></li>
-                                                    <li><a href="cart.html">Cart Page</a></li>
-                                                    <li><a href="checkout.html">Checkout Page</a></li>
-                                                    <li><a href="wishlist.html">Wishlist Page</a></li>
-                                                    <li><a href="error404.html">404 Page</a></li>
-                                                    <li><a href="faq.html">Faq Page</a></li>
-                                                    <li><a href="team.html">Team Page</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
                                         <li className="drop"><a href="blog.html">Blog</a>
-                                            <div className="megamenu dropdown">
-                                                <ul className="item item01">
-                                                    <li><a href="blog.html">Blog Page</a></li>
-                                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                    <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </div>
                                         </li>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
@@ -63,52 +41,51 @@ export default function NavBar(){
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li><a href="portfolio.html">Portfolio</a>
-                                                <ul>
-                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                    <li><a href="portfolio-three-column.html">Portfolio 3 Column</a>
-                                                    </li>
-                                                    <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="my-account.html">My Account</a></li>
-                                            <li><a href="cart.html">Cart Page</a></li>
-                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                            <li><a href="wishlist.html">Wishlist Page</a></li>
-                                            <li><a href="error404.html">404 Page</a></li>
-                                            <li><a href="faq.html">Faq Page</a></li>
-                                            <li><a href="team.html">Team Page</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="shop-grid.html">Shop</a>
-                                        <ul>
-                                            <li><a href="shop-grid.html">Shop Grid</a></li>
-                                            <li><a href="shop-list.html">Shop List</a></li>
-                                            <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                            <li><a href="shop-no-sidebar.html">Shop No sidebar</a></li>
-                                            <li><a href="single-product.html">Single Product</a></li>
-                                        </ul>
+
                                     </li>
                                     <li><a href="blog.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog Page</a></li>
-                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
+                        </div>
+                        <div className="col-md-8 col-sm-8 col-5 col-lg-2">
+                            <ul className="header__sidebar__right d-flex justify-content-end align-items-center">
+                                <li className="shop_search"><a className="search__active" href="#"></a></li>
+                                <li className="wishlist"><a href="#"></a></li>
+                                <li className="shopcart"><a className="cartbox_active" href="#"><span
+                                    className="product_qun">3</span></a>
+                                </li>
+                                <li className="setting__bar__icon"><a className="setting__active" href="#"></a>
+                                    <div className="searchbar__content setting__block">
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div className="mobile-menu d-block d-lg-none">
                     </div>
                 </div>
             </header>
+            <div
+                className="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
+                <div className="slide animation__style10 bg-image--1 fullscreen align__center--left">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="slider__content">
+                                    <div className="contentbox">
+                                        <h2>Contact  <span>Us </span></h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     )
