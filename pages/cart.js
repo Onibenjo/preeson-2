@@ -1,9 +1,36 @@
 import NavBar from "../components/landingPage/Navbar";
 
 export default function Cart() {
+
+    //need to get the cart and setcart state over here!!
+    const clearThecart = () => {
+        setCart([]);
+      };
+    
+
+    const cartAmount = (product, ) =>{
+        const New = [...cart] //need that state
+    }
     return (
         <>
             <NavBar/>
+            <div
+                className="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
+                <div className="slide animation__style10 bg-image--1 fullscreen align__center--left">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="slider__content">
+                                    <div className="contentbox">
+                                        <h2>Your  <span>Cart </span></h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="cart-main-area section-padding--lg bg--white">
                 <div className="container">
                     <div className="row">
@@ -33,10 +60,10 @@ export default function Cart() {
                                             <td className="product-subtotal">$165.00</td>
                                             <td className="product-remove"><a href="#">X</a></td>
                                         </tr>
-                                        <tr>
+                                        {/* <tr>
                                             <td className="product-thumbnail"><a href="#">
-                                                {/*<img*/}
-                                                {/*src="images/product/sm-3/2.jpg" alt="product img">*/}
+                                                <img
+                                                src="images/product/sm-3/2.jpg" alt="product img">
                                                 </a></td>
                                             <td className="product-name"><a href="#">Quisque fringilla</a></td>
                                             <td className="product-price"><span className="amount">$50.00</span></td>
@@ -46,15 +73,15 @@ export default function Cart() {
                                         </tr>
                                         <tr>
                                             <td className="product-thumbnail"><a href="#">
-                                                {/*<img*/}
-                                                {/*src="images/product/sm-3/3.jpg" alt="product img">*/}
+                                                <img
+                                                src="images/product/sm-3/3.jpg" alt="product img">
                                                 </a></td>
                                             <td className="product-name"><a href="#">Vestibulum suscipit</a></td>
                                             <td className="product-price"><span className="amount">$50.00</span></td>
                                             <td className="product-quantity"><input type="number" value="1"/></td>
                                             <td className="product-subtotal">$50.00</td>
                                             <td className="product-remove"><a href="#">X</a></td>
-                                        </tr>
+                                        </tr> */}
                                         </tbody>
                                     </table>
                                 </div>

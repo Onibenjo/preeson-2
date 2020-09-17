@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function NavBar(){
     return(
         <div>
@@ -7,24 +8,25 @@ export default function NavBar(){
                         <div className="col-md-6 col-sm-6 col-6 col-lg-2">
                             <div className="logo">
                                 <a href="index.html">
-                                    {/*<img src="images/logo/logo.png" alt="logo images"/>*/}
+                                    {/* <img src="images/logo/logo.png" alt="logo images"/> */}
                                 </a>
                             </div>
                         </div>
                         <div className="col-lg-8 d-none d-lg-block">
                             <nav className="mainmenu__nav">
                                 <ul className="meninmenu d-flex justify-content-start">
-                                    <li className="drop with--one--item"><a href="/">Home</a>
-                                        <li className="drop"><a href="#">Shop</a>
+                                <li className="drop with--one--item"><Link href="/"><a>Home</a></Link>
+                                           
                                         </li>
-                                        <li className="drop"><a href="/about">About</a>
-                                        </li>
-                                        <li className="drop"><a href="shop-grid.html">Kids</a>
-                                        </li>
-                                        <li className="drop"><a href="/product">Product</a>
-                                        </li>
-                                    </li>
-                                    <li><a href="/contact">Contact</a></li>
+                                         {/* <li className="drop"><a href="#">Shop</a>
+                                            </li> */}
+                                            <li className="drop"><Link href="/about"><a>About</a></Link>
+                                            </li>
+                                            {/* <li className="drop"><a href="shop-grid.html">Kids</a> */}
+                                            {/* </li> */}
+                                            <li className="drop"><Link href="/product/product"><a>Product</a></Link>
+                                            </li>
+                                        <li><Link href="/contact"><a>Contact</a></Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -64,7 +66,7 @@ export default function NavBar(){
                     </div>
                 </div>
             </header>
-            <div
+            {/* <div
                 className="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
                 <div className="slide animation__style10 bg-image--1 fullscreen align__center--left">
                     <div className="container">
@@ -80,7 +82,7 @@ export default function NavBar(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )

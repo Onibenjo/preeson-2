@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "flutterwave-react-v3": "^1.0.4",
-    "next": "9.5.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-paystack": "^3.0.1"
   }
 }

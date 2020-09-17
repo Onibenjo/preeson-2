@@ -4,15 +4,32 @@ export default function Contact() {
     return (
         <div class="wrapper" id="wrapper">
             <NavBar/>
+            <div
+                className="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
+                <div className="slide animation__style10 bg-image--1 fullscreen align__center--left">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="slider__content">
+                                    <div className="contentbox">
+                                        <h2>Contact  <span>Us </span></h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <section className="wn_contact_area bg--white pt--80">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-12">
                             <div className="contact-form-wrap">
                                 <h2 className="contact__title">Get in touch</h2>
-                                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                                {/* <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
                                     quod
-                                    mazim placerat facer possim assum. </p>
+                                    mazim placerat facer possim assum. </p> */}
                                 <form id="contact-form" action="mail.php" method="post">
                                     <div className="single-contact-form space-between">
                                         <input type="text" name="firstname" placeholder="First Name*"/>
@@ -40,17 +57,20 @@ export default function Contact() {
                         <div className="col-lg-4 col-12 md-mt-40 sm-mt-40">
                             <div className="wn__address">
                                 <h2 className="contact__title">Get office info.</h2>
-                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
+                                {/* <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
                                     lectorum.
                                     Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit
-                                    litterarum formas humanitatis per seacula quarta decima et quinta decima. </p>
+                                    litterarum formas humanitatis per seacula quarta decima et quinta decima. </p> */}
                                 <div className="wn__addres__wreapper">
 
                                     <div className="single__address">
                                         <i className="icon-location-pin icons"></i>
                                         <div className="content">
                                             <span>address:</span>
-                                            <p>666 5th Ave New York, NY, United</p>
+                                            <p>Suite 79, Lekan Salami Shopping Complex <br/>
+                Opposite Ibadan Recreation Club, <br/>
+                Adamasingba, Ibadan, <br/>
+                Nigeria.</p>
                                         </div>
                                     </div>
 
@@ -58,7 +78,7 @@ export default function Contact() {
                                         <i className="icon-phone icons"></i>
                                         <div className="content">
                                             <span>Phone Number:</span>
-                                            <p>716-298-1822</p>
+                                            <p>07038019000 & 08055532300 </p>
                                         </div>
                                     </div>
 
@@ -66,17 +86,17 @@ export default function Contact() {
                                         <i className="icon-envelope icons"></i>
                                         <div className="content">
                                             <span>Email address:</span>
-                                            <p>716-298-1822</p>
+                                            <p>info@schonpeesol.com</p>
                                         </div>
                                     </div>
 
-                                    <div className="single__address">
+                                    {/* <div className="single__address">
                                         <i className="icon-globe icons"></i>
                                         <div className="content">
                                             <span>website address:</span>
                                             <p>716-298-1822</p>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                 </div>
                             </div>

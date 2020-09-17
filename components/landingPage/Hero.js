@@ -1,5 +1,5 @@
 
-
+import Link from 'next/link'
 export default function Hero(){
     return(
         <div>
@@ -10,24 +10,25 @@ export default function Hero(){
                             <div className="col-md-6 col-sm-6 col-6 col-lg-2">
                                 <div className="logo">
                                     <a href="index.html">
-                                        {/*<img src="images/logo/logo.png" alt="logo images"/>*/}
+                                        {/* <img src="images/logo/logo.png" alt="logo images"/> */}
                                     </a>
                                 </div>
                             </div>
                             <div className="col-lg-8 d-none d-lg-block">
                                 <nav className="mainmenu__nav">
                                     <ul className="meninmenu d-flex justify-content-start">
-                                        <li className="drop with--one--item"><a href="/">Home</a>
-                                            <li className="drop"><a href="#">Shop</a>
-                                            </li>
-                                            <li className="drop"><a href="/about">About</a>
-                                            </li>
-                                            <li className="drop"><a href="shop-grid.html">Kids</a>
-                                            </li>
-                                            <li className="drop"><a href="/product">Product</a>
-                                            </li>
+                                        <li className="drop with--one--item"><Link href="/"><a>Home</a></Link>
+                                            
                                         </li>
-                                        <li><a href="/contact">Contact</a></li>
+                                        {/* <li className="drop"><a href="#">Shop</a>
+                                            </li> */}
+                                            <li className="drop"><Link href="/about"><a>About</a></Link>
+                                            </li>
+                                            {/* <li className="drop"><a href="shop-grid.html">Kids</a> */}
+                                            {/* </li> */}
+                                            <li className="drop"><Link href="/product/product"><a>Product</a></Link>
+                                            </li>
+                                        <li><Link href="/contact"><a>Contact</a></Link></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -76,9 +77,9 @@ export default function Hero(){
                                 <div className="col-lg-12">
                                     <div className="slider__content">
                                         <div className="contentbox">
-                                            <h2>Buy <span>your </span></h2>
-                                            <h2>favourite <span>Book </span></h2>
-                                            <h2>from <span>Here </span></h2>
+                                            <h2>The <span> </span></h2>
+                                            <h2>Future <span>in </span></h2>
+                                            <h2>Renewable  <span>Energy </span></h2>
                                             <a className="shopbtn" href="#">shop now</a>
                                         </div>
                                     </div>
