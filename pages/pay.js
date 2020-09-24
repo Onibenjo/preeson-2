@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFlutterwave } from 'flutterwave-react-v3';
+import Head from 'next/head'
 
 export default function Pay() {
     const config = {
@@ -24,6 +25,10 @@ export default function Pay() {
 
     return (
         <div className="App">
+            <Head>
+          <title>Schon Peesol Energy | Solar Company</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
             <h1>Hello Ade</h1>
 
             <button

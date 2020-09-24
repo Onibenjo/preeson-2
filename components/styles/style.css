@@ -6171,3 +6171,8 @@ a.checkout__title {
   padding-bottom: 80px;
 }
 }
+
+.mobilemenu__nav{
+  width: 300px;
+  background: blue;
+}

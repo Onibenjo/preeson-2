@@ -1,8 +1,13 @@
 import NavBar from "../components/landingPage/Navbar";
-
+import Head from 'next/head'
 export default function Checkout() {
     return (
         <>
+
+<Head>
+          <title>Schon Peesol Energy | Solar Company</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
             <NavBar/>
             <section className="wn__checkout__area section-padding--lg bg__white">
                 <div className="container">

@@ -1,5 +1,6 @@
 import NavBar from "../../../components/landingPage/Navbar";
 import {useState} from 'react'
+import Head from 'react/head'
 export default function Login() {
     const [user, setUser]=useState({
         email:"",
@@ -58,6 +59,10 @@ export default function Login() {
     }
     return (
         <>
+            <Head>
+          <title>Schon Peesol Energy | Solar Company</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
             <NavBar/>
             
             <div

@@ -1,8 +1,12 @@
 import NavBar from "../../components/landingPage/Navbar";
-
+import Head from 'next/head'
 export default function Single() {
     return (
         <>
+            <Head>
+          <title>Schon Peesol Energy | Solar Company</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
             <NavBar/>
             <div className="maincontent bg--white pt--80 pb--55">
                 <div className="container">
